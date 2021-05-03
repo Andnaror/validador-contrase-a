@@ -1,5 +1,3 @@
-const regex=/^\[A-Z]{1}\d{3}[a-z]{3}\D{3}$/;
-const reg= /^[A-Z]\d{3}[a-zñ]{3}[^A-Za-z\dñÑ ]{3}$/;
 const rege=/^[a-zA-Z]{1}[0-9]{3}[a-z]{3}\D{3}$/;    
 
 function mensaje(){
@@ -31,7 +29,7 @@ function mensaje(){
 
 var enter = document.getElementById("password");
 enter.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
+  if (event.key === 13) {
    event.preventDefault();
    document.getElementById("enviar").click();
   }
