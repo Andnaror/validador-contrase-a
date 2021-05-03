@@ -29,7 +29,7 @@ function mensaje(){
 
 var enter = document.getElementById("password");
 enter.addEventListener("keyup", function(event) {
-  if (event.key === 13) {
+  if (event.keyCode === 13) {
    event.preventDefault();
    document.getElementById("enviar").click();
   }
