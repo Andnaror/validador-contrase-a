@@ -45,7 +45,7 @@ formato.addEventListener("click", function () {
                     "×</button>"+
                "<span class='glyphicon glyphicon-ok'></span> <strong>Formato de contraseña</strong>"+
                 "<hr class='message-inner-separator'>"+
-                "<p>Primera letra en mayúscula [A-Z]<br>Tres números [0-9]<br>Tres letras en minúsculas<br>Tres caracteres especiales<br>Ejemplo: A123abc!@#</p>"+
+                "<p><b>La contraseña debe poseer:</b></br>Primera letra en mayúscula [A-Z]<br>Tres números [0-9]<br>Tres letras en minúsculas<br>Tres caracteres especiales<br>Ejemplo: A123abc!@#</p>"+
             "</div>"+
         "</div>";
 });
